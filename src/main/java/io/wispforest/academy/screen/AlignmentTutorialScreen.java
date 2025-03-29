@@ -14,7 +14,7 @@ public class AlignmentTutorialScreen extends BaseUIModelScreen<FlowLayout> {
     private final Screen parent;
 
     public AlignmentTutorialScreen(@Nullable Screen parent) {
-        super(FlowLayout.class, DataSource.asset(new Identifier("owo-ui-academy", "alignment")));
+        super(FlowLayout.class, DataSource.asset(Identifier.of("owo-ui-academy", "alignment")));
         this.parent = parent;
     }
 

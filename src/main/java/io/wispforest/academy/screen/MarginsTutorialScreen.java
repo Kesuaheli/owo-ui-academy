@@ -23,7 +23,7 @@ public class MarginsTutorialScreen extends BaseUIModelScreen<FlowLayout> {
     private final Screen parent;
 
     public MarginsTutorialScreen(@Nullable Screen parent) {
-        super(FlowLayout.class, DataSource.asset(new Identifier("owo-ui-academy", "margins")));
+        super(FlowLayout.class, DataSource.asset(Identifier.of("owo-ui-academy", "margins")));
         this.parent = parent;
     }
 

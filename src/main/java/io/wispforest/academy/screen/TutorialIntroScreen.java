@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 public class TutorialIntroScreen extends BaseUIModelScreen<FlowLayout> {
 
     public TutorialIntroScreen() {
-        super(FlowLayout.class, DataSource.asset(new Identifier("owo-ui-academy", "intro")));
+        super(FlowLayout.class, DataSource.asset(Identifier.of("owo-ui-academy", "intro")));
     }
 
     @Override

@@ -12,7 +12,7 @@ public class LayoutTutorialScreen extends BaseUIModelScreen<FlowLayout> {
     private final Screen parent;
 
     public LayoutTutorialScreen(@Nullable Screen parent) {
-        super(FlowLayout.class, DataSource.asset(new Identifier("owo-ui-academy", "layout")));
+        super(FlowLayout.class, DataSource.asset(Identifier.of("owo-ui-academy", "layout")));
         this.parent = parent;
     }
 

@@ -27,7 +27,7 @@ public class OwoUIAcademy implements ClientModInitializer {
             }
         });
 
-        Hud.add(new Identifier("owo-ui-academy", "hint"), () ->
+        Hud.add(Identifier.of("owo-ui-academy", "hint"), () ->
                 Containers.verticalFlow(Sizing.content(), Sizing.content())
                         .child(Components.label(
                                 Text.empty()

@@ -22,7 +22,7 @@ public class PaddingTutorialScreen extends BaseUIModelScreen<FlowLayout> {
     private final Screen parent;
 
     public PaddingTutorialScreen(@Nullable Screen parent) {
-        super(FlowLayout.class, DataSource.asset(new Identifier("owo-ui-academy", "padding")));
+        super(FlowLayout.class, DataSource.asset(Identifier.of("owo-ui-academy", "padding")));
         this.parent = parent;
     }
 
